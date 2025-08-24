@@ -1,0 +1,71 @@
+
+body{
+    background-image: url(pink.jpg);
+    background-size: cover;
+}
+h1{
+    background-color: pink;
+    text-align: center;
+    height: 50px;
+
+}
+.choice{
+    height: 165px;
+    width: 165px;
+    
+}
+.choices{
+   display: flex;
+   justify-content: center;
+   padding: 50px;
+   gap: 5rem;
+
+}
+img{
+    height: 230px;
+    width: 230px;
+    border-radius: 50%;
+   
+    border-color: blueviolet;
+}
+.choice:hover{
+    
+    
+    cursor: pointer;
+    background-color: rgb(123, 14, 56);
+    border-radius: 50%;
+}
+#scoreb{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+}
+#score{
+    margin-right: 10px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+}
+#scores{
+    margin-left: 10px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.msg-con{
+    margin-top: 3rem;
+}
+
+#msg{
+    text-align: center;
+    background-color: pink;
+    display: inline;
+    margin-left: 700px;
+    padding: 1rem;
+    border-radius: 20%;
+    font-size: larger;
+    
+}
+
+
